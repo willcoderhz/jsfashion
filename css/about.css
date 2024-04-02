@@ -9,7 +9,7 @@
 
 html {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 0 15% 0;
+    padding: 0 15%;
 }
 
 .headerContainer {
@@ -38,7 +38,6 @@ header {
 }
 
 .nav, .nav ul li a, .bodyContent, button {
-    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -83,6 +82,34 @@ button {
     width: 65%;    
 }
 
+.mainContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+    color: #1F2937;
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.box {
+    width: 30%;
+    height: 14rem;
+    margin: 0 2%;
+    padding: 1.5%;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
 
 
 footer {
