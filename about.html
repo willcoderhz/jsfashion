@@ -15,24 +15,40 @@
     </head>
     <body>
         <header role="banner">
-            <nav role="navigation" aria-labelledby="primary-navigation">
-                <ul role="list">
-                    <li role="listitem"><a role="link" href="../index.html">Home</a></li>
-                    <li role="listitem"><strong>About</strong></li>
-                    <li role="listitem"><a role="link" href="./featured.html">Featured</a></li>
-                    <li role="listitem"><a role="link" href="./display.html">Display</a></li>
-                </ul>
-              </nav>
+            <div class="headerContainer">
+                <div class="headerLogo">
+                    <p>JS Fashion</p>
+                </div>
+                <div class="nav">
+                    <nav role="navigation" aria-labelledby="primary-navigation">
+                        <ul role="list">
+                            <li role="listitem"><a role="link" href="../index.html">Home</a></li>
+                            <li role="listitem"><strong>About</strong></li>
+                            <li role="listitem"><a role="link" href="./featured.html">Featured</a></li>
+                            <li role="listitem"><a role="link" href="./display.html">Display</a></li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+            <div class="bodyContainer">
+                <div class="bodyContent">
+                    <div class="mainText" role="heading" aria-level="1">All About JS Fashion</div>
+                    <div>
+                            Welcome to JS Fashion, where fashion meets elegance and sophistication.
+                    </div>
+                    <a href="#footer"><button>Contact Us</button></a>
+                </div>
+                <div class="bodyImage">
+                    <img 
+                        role="img" 
+                        src="./images/logos/js-fashion.jpeg" 
+                        alt="JS Fashion logo."
+                    >
+                </div>
+            </div>
         </header>
-
-        <h1 role="heading" aria-level="1">All About JS Fashion</h1> <br>
         
         <div>
-            <div>
-                <p>
-                    Welcome to JS Fashion, where fashion meets elegance and sophistication.
-                </p>
-            </div>
             <div>
                 <h3 role="heading" aria-level="3">Our Story:</h3>
                 <p>
@@ -105,7 +121,7 @@
             <div class="footer">
                 <small>Copyright © 2024  JS Fashion. All Rights Reserved</small>
             </div>
-              <div class="contact">
+              <div class="contact" id="footer">
                 <img 
                     role="img"
                     width="30"
