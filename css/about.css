@@ -39,11 +39,20 @@ header {
 
 .nav, .nav ul li a, .bodyContent, button {
     color: #e5e7eb;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
 }
 
 nav li {
     display: inline-block;
     padding: 0 3%;
+}
+
+nav a:hover {
+    font-size: larger;
 }
 
 .bodyContainer {
