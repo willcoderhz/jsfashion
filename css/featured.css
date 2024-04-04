@@ -144,5 +144,25 @@ header {
 
 footer {
   background-color: #1f2937;
+  font-size: 12px;
   color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer div img {
+  max-width: 30px;
+}
+
+.logoWrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoItem {
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: space-between;
 }
