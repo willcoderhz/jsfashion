@@ -41,7 +41,7 @@ header {
 
 .mainText {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: 800;
   margin-bottom: 1%;
 }
 
@@ -80,29 +80,66 @@ header {
   position: relative;
 }
 
-.heaerItem {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .info {
   font-size: 36px;
-  font-weight: extra-bold;
+  font-weight: 800;
   color: #1f2937;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.itemsWrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: center;
 }
 
 .items {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
+  img {
+    max-width: 200px;
+  }
+}
+
+.reviewWrap {
+  background-color: #e5e7eb;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .review {
-  background-color: #e5e7eb;
   font-size: 36px;
   font-style: italic;
   color: 1F2937;
+  position: relative;
+}
+
+.customer {
+  position: absolute;
+  right: 0;
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.message {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
 }
 
 footer {
