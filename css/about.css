@@ -12,6 +12,14 @@ html {
     font-size: 18px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.mobile, .mobileNav {
+    display: none;
+}
+
 header {
     background-color: #1F2937;
     display: block;
@@ -57,7 +65,6 @@ nav a:hover {
 
 .bodyContainer {
     display: flex;
-    padding: 1%;
     flex: 4;
     padding: 8% 0;
 }
@@ -212,4 +219,192 @@ small {
     width: 100%;
     max-width: 50px;
     border-radius: 25px;
+}
+
+/* Desktop */
+@media only screen and (max-width: 1460px) {
+    .row1, .row2 {
+        width: 100%;
+        padding: 0%;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .mainContainer {
+        margin: 5% 2%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .box {
+        height: 18rem;
+    }
+}
+
+/* Tablet Landscape */
+@media only screen and (max-width: 1000px) {
+    .mainContainer {
+        flex-direction: row;
+        margin: 5% 0;
+    }
+
+    .row1, .row2 {
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 5% 0%;
+        width: 70%;
+        height: 15rem;
+    }
+
+    .ceo {
+        padding: 0 5%;
+    }
+    
+    .thankNote {
+        padding: 2% 5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .box {
+        margin: 5%;
+        width: 80%;
+    }
+
+    .ceo {
+        padding: 0 1%;
+    }
+    
+    .thankNote {
+        padding: 2% 1%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .thankNote div {
+        width: 70%;
+        text-align: center;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+    
+    .mobileNav {
+        position: absolute;
+        background-color: rgba(67,78,94, 0.98);
+        top: 4.5rem;
+        width: 34%;
+    }
+    
+    .mobile:hover .mobileNav {
+        display: block;
+    }
+      
+    .mobileNav a {
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding: 0.5rem;
+        border-bottom: 1px solid whitesmoke;  
+    }
+
+    .headerContainer {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav li {
+        padding: 0 20%;
+    }
+
+    .backToTop img {
+        margin-top: 40%;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 700px) {
+    .bodyImage {
+        display: none;
+    }
+    
+    .box {
+        height: 18rem;
+    }
+    
+    .ceoBody {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ceoBody div {
+        width: 65%;
+        text-align: center;
+    }
+
+    .ceoBody img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .bodyContent {
+        display: none;
+    }
+
+    .backToTop {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row1, .row2 {
+        width: 70%;
+    }
+
+    .box {
+        padding: 5%;
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .box {
+        height: 18rem;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    footer {
+        padding: 3% 0;
+    }
+}
+  
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .box {
+        width: 100%;
+    }
+
+    .ceoHeading {
+        text-align: center;
+    }
 }
