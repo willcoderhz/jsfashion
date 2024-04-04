@@ -221,7 +221,7 @@ small {
     border-radius: 25px;
 }
 
-/* Desktop */
+
 @media only screen and (max-width: 1460px) {
     .row1, .row2 {
         width: 100%;
@@ -241,7 +241,7 @@ small {
     }
 }
 
-/* Tablet Landscape */
+
 @media only screen and (max-width: 1000px) {
     .mainContainer {
         flex-direction: row;
@@ -333,7 +333,7 @@ small {
     }
 }
 
-/* Tablet */
+
 @media only screen and (max-width: 700px) {
     .bodyImage {
         display: none;
@@ -398,7 +398,7 @@ small {
     }
 }
   
-/* Mobile */
+
 @media only screen and (max-width: 400px) {
     .box {
         width: 100%;
