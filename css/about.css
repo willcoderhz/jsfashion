@@ -47,7 +47,6 @@ header {
 
 .nav, .nav ul li a, .bodyContent, button {
     color: #e5e7eb;
-    text-decoration: none;
 }
 
 nav ul {
@@ -75,7 +74,7 @@ nav a:hover {
     align-content: center;
 }
 
-.mainText {
+.mainText, .heading {
     font-size: 48px;
     font-weight: 700;
 }
@@ -116,7 +115,6 @@ button {
 }
 
 .heading {
-    font-weight: 700;
     font-size: 36px;
 }
 
