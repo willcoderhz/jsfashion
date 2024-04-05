@@ -43,10 +43,11 @@ header:hover {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif; /* 特别为logo选择的字体 */
-    font-size: 2em; /* 增大logo字体尺寸 */
-    color: #ffffff; /* 柔和的颜色，根据品牌调整 */
+    font-family: 'Pacifico', cursive; /* 使用'Pacifico'字体，手写风格 */
+    font-size: 3em; /* 保持字体尺寸 */
+    color: #ffffff; /* 保持字体颜色 */
 }
+
 nav ul {
     display: flex;
     padding: 0;
