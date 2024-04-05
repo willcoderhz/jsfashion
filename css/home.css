@@ -1,4 +1,6 @@
 /* Reset some basic elements */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap');
+
 body, h1, p, ul {
     margin: 0;
     padding: 0;
@@ -7,25 +9,37 @@ body, h1, p, ul {
 
 /* Basic styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #333;
     line-height: 1.6;
+    background-image: url('../assets/images/background.jpg'); 
+    background-size: cover;
 }
+
+.content {
+    min-height: 150vh; /* 视口高度的150% */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-size: cover;
+}
+
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background: #000;
+    background: transparent;
     color: #fff;
+
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-family: 'Playfair Display', serif; /* 特别为logo选择的字体 */
+    font-size: 2em; /* 增大logo字体尺寸 */
+    color: #ffffff; /* 柔和的颜色，根据品牌调整 */
 }
-
 nav ul {
     display: flex;
 }
@@ -55,12 +69,7 @@ nav ul li a {
     margin-top: 20px;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
+
 
 footer ul {
     padding: 10px;
@@ -120,9 +129,18 @@ footer ul li a {
 footer {
     margin-top: 50px;
     padding-top: 20px;
-    background: #333;
+
     color: white;
     text-align: center;
+    background:transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed; /* 将footer定位设置为固定 */
+    bottom: 0; /* 定位到视窗的底部 */
+    left: 0; /* 确保从左侧开始 */
+    width: 100%; /* 使footer宽度充满整个视窗 */
+    box-sizing: border-box; /* 确保padding不会影响到总宽度 */
 }
 
 footer ul {
