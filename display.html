@@ -5,12 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <Link rel="stylesheet" href ="./css/display.css">
         <title>Models</title>
+        <link role="link" rel="preconnect" href="https://fonts.googleapis.com">
+        <link role="link" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link 
+            role="link"
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+            rel="stylesheet"
+        >
     </head>
     <body>
         <header role="banner">
             <div class="headerContainer">
-                <div class="logo">
-                    <p class="headerLogo">JS Fashion</p>
+                <div  class="headerLogo">
+                    <p>JS Fashion</p>
                 </div>
                 <div class="nav">
                     <nav role="navigation" aria-labelledby="primary-navigation">
@@ -22,86 +29,72 @@
                         </ul>
                     </nav>
                 </div>
+                <div class="mobile">
+                    <button role="button">
+                        <img 
+                            role="img"
+                            width="60"
+                            src="https://icon-library.com/images/white-menu-icon/white-menu-icon-4.jpg" 
+                            alt="Menu button."
+                        >
+                    </button>
+                    <div class="mobileNav">
+                        <a role="link" href="./index.html">Home</a>
+                        <a role="link" href="./about.html">About</a>
+                        <a role="link" href="./featured.html">Featured</a>
+                        <a><strong>Display</strong></a>
+                    </div>
+                </div>
             </div>
-            <h1>Clothing Models</h1>
+            <div class="bodyContainer">
+                <div class="bodyContent">
+                    <div class="mainText">All About JS Fashion</div>
+                    <div>
+                            Welcome to JS Fashion, where fashion meets elegance and sophistication.
+                    </div>
+                    <a role="link" href="#footer"><button role="button" class="contactButton">Contact Us</button></a>
+                </div>
+                <div class="bodyImage">
+                    <img 
+                        role="img" 
+                        src="./images/logos/js-fashion.jpeg" 
+                        alt="JS Fashion logo."
+                    >
+                </div>
+            </div>
         </header>
         <section>
-            <h2>Sweatshirts</h2>
+            <h1>Clothing Models</h1>
+            <h2>Women</h2>
             <div class="images">
                 <div class="image">
-                    <img src="./images/sweatshirt-yellow.png" alt="Sweatshirt" >
-                    <p>LISMORE</p>
-                    <p>€89</p>
+                    <img src="./images/sweatshirt.png" alt="Sweatshirt" >
                 </div>
                 <div class="image">
-                    <img src="./images/sweatshirt-brown.png" alt="Sweatshirt" >
-                    <p>PATRESH</p>
-                    <p>€89</p>
+                    <img src="./images/shirt-women.png" alt="Shirt-Women" >
                 </div>
                 <div class="image">
-                    <img src="./images/sweatshirt-colorful.png" alt="Sweatshirt" >
-                    <p>LOWENDAL</p>
-                    <p>€89</p>
+                    <img src="./images/dresses.png" alt="Dresses" >
+                </div>
+                <div class="image">
+                    <img src="./images/short-women.png" alt="Short-Women" >
+                </div>
+                <div class="image">
+                    <img src="./images/jacket.png" alt="Jacket" >
+                </div>
+                <div class="image">
+                    <img src="./images/skirt.png" alt="Skirt" >
                 </div>
             </div>
         </section>
         <section>
-            <h2>T-Shirts</h2>
+            <h2>Men</h2>
             <div class="images">
                 <div class="image">
-                    <img src="./images/tshirt-black.png" alt="Tshirt" >
-                    <p>MITKOF</p>
-                    <p>€99</p>
+                    <img src="./images/tshirt.png" alt="Tshirt-Men">
                 </div>
                 <div class="image">
-                    <img src="./images/tshirt-blue.png" alt="Tshirt" >
-                    <p>QALITO</p>
-                    <p>€99</p>
-                </div>
-                <div class="image">
-                    <img src="./images/tshirt-grey.png" alt="Tshirt" >
-                    <p>WHIDBEY</p>
-                    <p>€99</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Shorts</h2>
-            <div class="images">
-                <div class="image">
-                    <img src="./images/short-red.png" alt="Short" >
-                    <p>COCKATOO</p>
-                    <p>€60</p>
-                </div>
-                <div class="image">
-                    <img src="./images/short-green.png" alt="Short" >
-                    <p>GISKE</p>
-                    <p>€60</p>
-                </div>
-                <div class="image">
-                    <img src="./images/short-beige.png" alt="Short" >
-                    <p>WAIHEKE</p>
-                    <p>€60</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Dresses</h2>
-            <div class="images">
-                <div class="image">
-                    <img src="./images/dresses-green.png" alt="Dresses" >
-                    <p>WAJAG</p>
-                    <p>€89</p>
-                </div>
-                <div class="image">
-                    <img src="./images/dresses-pink.png" alt="Dresses" >
-                    <p>PRAMUKA</p>
-                    <p>€89</p>
-                </div>
-                <div class="image">
-                    <img src="./images/dresses-flower.png" alt="Dresses" >
-                    <p>EWING</p>
-                    <p>€89</p>
+                    <img src="./images/short-men.png" alt="Short-Men" >
                 </div>
             </div>
         </section>
@@ -109,15 +102,43 @@
             <div class="footer">
                 <small>Copyright © 2024  JS Fashion. All Rights Reserved</small>
             </div>
-            <div class="backToTop">
-                <a role="link" href="#">
+            <div class="contact" id="footer">
+                <div class="footerLogo">
                     <img 
                         role="img"
                         width="30"
-                        src="./images/logos/back-to-top.jpeg" 
-                        alt="Back To Top arrow icon."
+                        src="./images/logos/facebook.png" 
+                        alt="Facebook logo."
                     >
-                </a>
+                    <img 
+                        role="img"
+                        width="30"
+                        src="./images/logos/twitter.png" 
+                        alt="Twitter logo."
+                    >
+                    <img 
+                        role="img"
+                        width="30"
+                        src="./images/logos/instagram.jpeg" 
+                        alt="Instagram logo."
+                    >
+                    <img 
+                        role="img"
+                        width="30"
+                        src="./images/logos/whatsapp-logo-vector.png" 
+                        alt="Whatsapp logo."
+                    >
+                </div>
+                <div class="backToTop">
+                    <a role="link" href="#">
+                        <img 
+                            role="img"
+                            width="30"
+                            src="./images/logos/back-to-top.jpeg" 
+                            alt="Back To Top arrow icon."
+                        >
+                    </a>
+                </div>
             </div>
         </footer>
     </body>
