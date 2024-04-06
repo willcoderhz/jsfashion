@@ -191,7 +191,7 @@ button:hover, button:focus {
     justify-content: space-between;
     align-items: center;
     color: white;
-    font-family: 'Arial', sans-serif; /* or any font-family you prefer */
+    font-family: 'Arial', sans-serif; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
@@ -224,8 +224,6 @@ button:hover, button:focus {
 .signup-button:hover {
     background-color: #a8c0ff;
 }
-
-
 
 
 
