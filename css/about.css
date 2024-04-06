@@ -319,8 +319,8 @@ small {
     .mobileNav {
         position: absolute;
         background-color: rgba(67,78,94, 0.98);
-        top: 4.5rem;
-        width: 34%;
+        top: 7.4rem;
+        width: 40%;
     }
     
     .mobile:hover .mobileNav {
