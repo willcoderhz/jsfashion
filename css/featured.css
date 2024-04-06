@@ -30,16 +30,18 @@ header {
 }
 
 .navItems {
-  font-size: 14px;
-
   button {
     background-color: transparent;
     color: #e5e7eb;
     border: none;
     cursor: pointer;
+    font-size: 18px;
   }
 }
 
+.btnFeatured {
+  font-weight: 700;
+}
 .mainText {
   font-size: 48px;
   font-weight: 800;
@@ -108,6 +110,10 @@ header {
   margin-bottom: 4%;
 }
 
+.item img:hover {
+  transform: scale(1.1);
+}
+
 .items {
   display: flex;
   flex-direction: row;
@@ -156,6 +162,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 7vh;
 }
 
 footer div img {
@@ -172,6 +179,20 @@ footer div img {
   margin-right: 3%;
   display: flex;
   justify-content: space-between;
+  img {
+    border-radius: 5px;
+  }
+}
+
+.backToTop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 1rem;
+
+  img {
+    border-radius: 1rem;
+  }
 }
 
 .copyright {
@@ -312,7 +333,9 @@ footer div img {
     font-size: 0.5rem;
   }
   .navItems {
-    font-size: 0.7rem;
+    button {
+      font-size: 0.9rem;
+    }
   }
   .item {
     img {
@@ -365,7 +388,9 @@ footer div img {
     font-size: 0.4rem;
   }
   .navItems {
-    font-size: 0.5rem;
+    button {
+      font-size: 0.7rem;
+    }
   }
   .items {
     img {
@@ -392,9 +417,12 @@ footer div img {
   }
   .logo {
     font-size: 0.7rem;
+    margin-top: 0.5rem;
   }
   .navItems {
-    font-size: 0.3rem;
+    button {
+      font-size: 0.5rem;
+    }
   }
   .items {
     img {
@@ -432,7 +460,9 @@ footer div img {
     font-size: 0.5rem;
   }
   .navItems {
-    font-size: 0.1rem;
+    button {
+      font-size: 0.4rem;
+    }
   }
   .info {
     font-size: 1.2rem;
@@ -459,5 +489,8 @@ footer div img {
       width: 15%;
       height: 40%;
     }
+  }
+  .backToTop {
+    margin-left: 0.5rem;
   }
 }
