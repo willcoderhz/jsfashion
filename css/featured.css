@@ -110,6 +110,10 @@ header {
   margin-bottom: 4%;
 }
 
+.item img:hover {
+  transform: scale(1.1);
+}
+
 .items {
   display: flex;
   flex-direction: row;
@@ -158,6 +162,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 7vh;
 }
 
 footer div img {
@@ -174,6 +179,20 @@ footer div img {
   margin-right: 3%;
   display: flex;
   justify-content: space-between;
+  img {
+    border-radius: 5px;
+  }
+}
+
+.backToTop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 1rem;
+
+  img {
+    border-radius: 1rem;
+  }
 }
 
 .copyright {
@@ -470,5 +489,8 @@ footer div img {
       width: 15%;
       height: 40%;
     }
+  }
+  .backToTop {
+    margin-left: 0.5rem;
   }
 }
