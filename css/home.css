@@ -189,17 +189,17 @@ button:focus {
 }
 
 .signup-section {
-  background-color: #3881f6c7;
-  max-width: 50%;
-  margin: 20px auto;
-  padding: 10px 60px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  font-family: 'Arial', sans-serif; /* or any font-family you prefer */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    background-color: #3881f6c7;
+    max-width: 50%; 
+    margin: 20px auto;
+    padding: 10px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Arial', sans-serif; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .signup-content {
