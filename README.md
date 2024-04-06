@@ -1,1 +1,1 @@
-Link to live website: willcoderhz.github.io/jsfashion/
+Link to live website: https://willcoderhz.github.io/jsfashion/
