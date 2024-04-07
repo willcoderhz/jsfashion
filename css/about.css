@@ -62,6 +62,24 @@ nav a:hover {
     font-size: larger;
 }
 
+.mainContainer {
+    background-image: url(https://img.freepik.com/free-photo/young-japanese-woman-portrait-wearing-sunglasses_23-2148870797.jpg?size=626&ext=jpg&ga=GA1.1.182320618.1712500472&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 10%;
+}
+
+aside {
+    width: 25%;
+    margin: 1% 0;
+    border: 2px solid red;
+}
+/*
 .bodyContainer {
     display: flex;
     flex: 4;
@@ -148,6 +166,7 @@ button:hover, button:focus {
     border: 2.5px solid #3882f6;
     border-radius: 10px;
 }
+*/
 
 .ceo {
     background-color: #e5e7eb;
