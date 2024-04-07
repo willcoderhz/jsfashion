@@ -28,6 +28,11 @@ a {
     display: none;
 }
 
+button {
+    background-color: black;
+    border-radius: 5px;
+}
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -66,12 +71,18 @@ strong {
     padding: 3% 10%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-end;
 }
 
+.infoContainer {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 aside {
-    width: 30%;
+    width: 80%;
     margin: 1% 0;
     padding: 0.5%;
     color: #e5e7eb;
@@ -119,29 +130,68 @@ small {
 }
 
 @media only screen and (max-width: 1460px) {
-
-}
-
-@media only screen and (max-width: 1320px) {
-    .mainContainer {
-        margin: 5% 2%;
+    .nav {
+        width: 35%;
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    
+@media only screen and (max-width: 1260px) {
+    .nav {
+        width: 40%;
+    }
+
+    .mainContainer {
+        padding-right: 5%;
+    }
 }
 
+@media only screen and (max-width: 1120px) {
+    h1 {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .nav {
+        width: 50%;
+    }
+
+    aside {
+        background-color: darkgrey;
+        opacity: 0.85;
+        border-radius: 4px;
+        margin: 3% 0;
+    }
+
+    .middleBox {
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .mainContainer {
+        padding: 3%;
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     .mainContainer {
-        flex-direction: row;
-        margin: 5% 0;
+        align-items: flex-start;
+    }
+
+    .infoContainer {
+        width: 45%;
+    }
+
+    .contact img {
+        padding: 0 10%;    
     }
 }
 
-@media only screen and (max-width: 800px) {
-    
+@media only screen and (max-width: 880px) {
+    .nav {
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 760px) {
@@ -156,8 +206,8 @@ small {
     .mobileNav {
         position: absolute;
         background-color: rgba(67,78,94, 0.98);
-        top: 7.4rem;
-        width: 40%;
+        top: 5.3rem;
+        width: 27%;
     }
     
     .mobile:hover .mobileNav {
@@ -177,47 +227,33 @@ small {
         align-items: center;
     }
 
-    nav {
-        width: 100%;
+    .infoContainer, h1 {
+        width: 60%;
     }
 
-    nav li {
-        padding: 0 20%;
+    small {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .infoContainer, h1 {
+        width: 80%;
+    }    
+
+    .contact {
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .infoContainer, h1 {
+        width: 90%;
     }
 
     .backToTop img {
-        margin-top: 40%;
+        height: 2rem;
+        margin-top:15%;
     }
-}
-
-
-@media only screen and (max-width: 700px) {
-    }
-
-@media only screen and (max-width: 640px) {
-    .backToTop {
-        margin-top: 5%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .mainContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .contact {
-        display: none;
-    }
-
-    footer {
-        padding: 3% 0;
-    }
-}
-  
-
-@media only screen and (max-width: 400px) {
-
 }
