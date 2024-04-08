@@ -217,6 +217,10 @@ small {
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  small {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 500px) {
