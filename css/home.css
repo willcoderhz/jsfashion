@@ -27,14 +27,15 @@ header {
   display: block;
   justify-content: center;
   align-items: center;
-  padding: 0 15%;
+  padding-left:12.5%;
+  padding-right: 14%;
 }
 
 .headerContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
+  padding: 0 0%;
   flex: 1;
 }
 
@@ -45,14 +46,16 @@ header {
 }
 
 .nav {
-  width: 35%;
+  width: 30%;
 }
+
 
 .nav,
 .nav ul li a,
 .bodyContent,
 button {
   color: #e5e7eb;
+
 }
 
 nav ul {
@@ -61,12 +64,10 @@ nav ul {
 
 nav li {
   display: inline-block;
-  padding: 0 3%;
+  padding: 3%
+
 }
 
-nav a:hover {
-  font-size: larger;
-}
 
 .bodyContainer {
   display: flex;
@@ -188,49 +189,54 @@ button:focus {
   max-width: 70%;
 }
 
+
+
 .signup-section {
-    background-color: #3881f6c7;
-    max-width: 50%; 
-    margin: 20px auto;
-    padding: 10px 60px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    font-family: 'Arial', sans-serif; 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  background-color: #1980eeea;
+  color: white;
+  width: 60%;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  border-radius: 10px;
 }
 
 .signup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.signup-word {
   text-align: left;
 }
 
 .signup-call-to-action {
-  font-size: 24px;
+  font-size: 1.2em;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin: 0;
 }
 
 .signup-instruction {
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-weight: 200;
+  margin: 0;
 }
 
 .signup-button {
-  padding: 17px 25px;
-  border: none;
-  border-radius: 20px;
-  background-color: white;
-  color: #3882f6;
-  font-weight: bold;
+  background-color: #1980eeea;
+  color: #ffffff;
+  padding: 8px 35px;
+  font-size: 1em;
+  text-align: justify;
+  border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  border: 2px solid #ffffff; 
 }
 
-.signup-button:hover {
-  background-color: #a8c0ff;
-}
 
 footer {
   background-color: #1f2937;
@@ -339,11 +345,7 @@ small {
 }
 
 @media only screen and (max-width: 760px) {
-  .thankNote div {
-    width: 70%;
-    text-align: center;
-  }
-
+ 
   .nav {
     display: none;
   }
@@ -403,10 +405,7 @@ small {
     align-items: center;
   }
 
-  .ceoBody div {
-    width: 65%;
-    text-align: center;
-  }
+
 
   .ceoBody img {
     width: 50%;
@@ -462,4 +461,8 @@ small {
   .ceoHeading {
     text-align: center;
   }
+}
+
+aside.row1 i {
+  font-size: 4em; 
 }
