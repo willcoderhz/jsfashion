@@ -14,6 +14,7 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
             rel="stylesheet"
         >
+        <title>JS Fashion | Display</title>
     </head>
     <body>
         <header role="banner">
@@ -47,83 +48,91 @@
                 </figure>
             </div>
         </header>
-        <section>
-            <h1>Clothing Models</h1>
-            <h2>Women</h2>
-            <div class="images">
-                <div class="image">
-                    <img src="./images/sweatshirt.png" alt="Sweatshirt" >
+        <main>
+            <section class="banner">
+                <img class="banner-image" src ="./images/banner.jpg">
+                <h1 >Clothing Models</h1>
+            </section>
+            <section>
+                <h2>Women</h2>
+                <hr class="underline"/>
+                <div class="dresses">
+                    <figure class="dresses-image">
+                        <img src="./images/dresses.png" alt="Dresses" >
+                    </figure>
+                    <aside class="text">
+                        <p> DO<br/>
+                            GOOOD<br/>
+                            LOOK<br/>
+                            GOOOD
+                        </p>
+                    </aside>
                 </div>
-                <div class="image">
-                    <img src="./images/shirt-women.png" alt="Shirt-Women" >
+                <div class="images-women">
+                    <figure class="image">
+                        <img src="./images/sweatshirt.png" alt="Sweatshirt" >
+                    </figure>
+                    <figure class="image">
+                        <img src="./images/shirt-women.png" alt="Shirt-Women" >
+                    </figure>
+                    <figure class="image">
+                        <img src="./images/short-women.png" alt="Short-Women" >
+                    </figure>
                 </div>
-                <div class="image">
-                    <img src="./images/dresses.png" alt="Dresses" >
+            </section>
+            <section>
+                <h2>Men</h2>
+                <hr class="underline"/>
+                <div class="images-men">
+                    <figure class="image">
+                        <img src="./images/tshirt.png" alt="Tshirt-Men">
+                    </figure>
+                    <figure class="image">
+                        <img src="./images/short-men.png" alt="Short-Men" >
+                    </figure>
                 </div>
-                <div class="image">
-                    <img src="./images/short-women.png" alt="Short-Women" >
-                </div>
-                <div class="image">
-                    <img src="./images/jacket.png" alt="Jacket" >
-                </div>
-                <div class="image">
-                    <img src="./images/skirt.png" alt="Skirt" >
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Men</h2>
-            <div class="images">
-                <div class="image">
-                    <img src="./images/tshirt.png" alt="Tshirt-Men">
-                </div>
-                <div class="image">
-                    <img src="./images/short-men.png" alt="Short-Men" >
-                </div>
-            </div>
-        </section>
+            </section>
+        </main>
         <footer role="contentinfo">
-            <div class="footer">
+            <section class="footer">
                 <small>Copyright © 2024  JS Fashion. All Rights Reserved</small>
-            </div>
-            <div class="contact" id="footer">
-                <div class="footerLogo">
+            </section>
+            <picture class="contact" id="footer">
+                <img 
+                    role="img"
+                    width="30"
+                    src="./images/logos/facebook.png" 
+                    alt="Facebook logo."
+                >
+                <img 
+                    role="img"
+                    width="30"
+                    src="./images/logos/twitter.png" 
+                    alt="Twitter logo."
+                >
+                <img 
+                    role="img"
+                    width="30"
+                    src="./images/logos/instagram.jpeg" 
+                    alt="Instagram logo."
+                >
+                <img 
+                    role="img"
+                    width="30"
+                    src="./images/logos/whatsapp-logo-vector.png" 
+                    alt="Whatsapp logo."
+                >
+            </picture>
+            <picture class="backToTop">
+                <a role="link" href="#">
                     <img 
                         role="img"
                         width="30"
-                        src="./images/logos/facebook.png" 
-                        alt="Facebook logo."
+                        src="./images/logos/back-to-top.jpeg" 
+                        alt="Back To Top arrow icon."
                     >
-                    <img 
-                        role="img"
-                        width="30"
-                        src="./images/logos/twitter.png" 
-                        alt="Twitter logo."
-                    >
-                    <img 
-                        role="img"
-                        width="30"
-                        src="./images/logos/instagram.jpeg" 
-                        alt="Instagram logo."
-                    >
-                    <img 
-                        role="img"
-                        width="30"
-                        src="./images/logos/whatsapp-logo-vector.png" 
-                        alt="Whatsapp logo."
-                    >
-                </div>
-                <div class="backToTop">
-                    <a role="link" href="#">
-                        <img 
-                            role="img"
-                            width="30"
-                            src="./images/logos/back-to-top.jpeg" 
-                            alt="Back To Top arrow icon."
-                        >
-                    </a>
-                </div>
-            </div>
+                </a>
+            </picture>
         </footer>
     </body>
 </html>
