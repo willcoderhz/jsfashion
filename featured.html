@@ -17,28 +17,37 @@
     <title>JS Fashion | Featured</title>
   </head>
   <body>
-    <header>
-      <div class="top">
-        <div class="logo">JS Fashion</div>
-        <div class="navItems">
-          <button onclick="location.href='./index.html'">Home</button>
-          <button onclick="location.href='./about.html'">About</button>
-          <button class="btnFeatured">Featured</button> 
-          <button onclick="location.href='./display.html'">Display</button>
-        </div>
+    <header role="banner">
+      <div class="headerContainer">
+          <section class="headerLogo">
+              <p>JS Fashion</p>
+          </section>
+          <section class="nav">
+              <nav role="navigation" aria-labelledby="primary-navigation">
+                  <a role="link" href="./index.html">Home</a>
+                  <a role="link" href="./about.html">About</a>
+                  <a><strong>Featured</strong></a>
+                  <a role="link" href="./display.html">Display</a>
+              </nav>
+          </section>
+          <figure role="figure" class="mobile">
+              <button role="button">
+                  <img 
+                      role="img"
+                      width="60"
+                      src="https://i.pinimg.com/originals/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg" 
+                      alt="Menu button."
+                  >
+              </button>
+              <nav class="mobileNav">
+                  <a role="link" href="./index.html">Home</a>
+                  <a role="link" href="./about.html">About</a>
+                  <a><strong>Featured</strong></a>
+                  <a role="link" href="./display.html">Display</a>
+              </nav>
+          </figure>
       </div>
-      <div class="headerFlex">
-        <div>
-          <div class="mainText">
-            <div>JS Fashion Awaits You</div>
-          </div>
-          <div class="secondaryText">Discover elegance and the latest trends with JS Fashion.</div>
-          <div class="secondaryText">Elevate your wardrobe today.</div>
-          <button class="btn">Explore Our Callback</button>
-        </div>
-        <div><img src="images/logos/js-fashion.jpeg" /></div>
-      </div>
-    </header>
+  </header>
     <main>
       <div class="info">Our Clothes</div>
       <div class="itemsWrap">
@@ -76,19 +85,46 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div class="copyright">Copyright © 2024 JS Fashion. All Rights Reserved</div>
-      <div class="logoWrap">
-        <div class="logoItem">
-          <img src="images/logos/facebook.png" />
-        </div>
-        <div class="logoItem"><img src="images/logos/twitter.png" /></div>
-        <div class="logoItem"><img src="images/logos/instagram.jpeg" /></div>
-        <div class="logoItem"><img src="images/logos/whatsapp-logo-vector.png" /></div>
-        <div class="backToTop">
-          <a href="#top"><img src="images/logos/back-to-top.jpeg" /></a>
-        </div>
-      </div>
-    </footer>
+    <footer role="contentinfo">
+      <section class="footer">
+          <small>Copyright © 2024  JS Fashion. All Rights Reserved</small>
+      </section>
+      <picture class="contact" id="footer">
+          <img 
+              role="img"
+              width="30"
+              src="./images/logos/facebook.png" 
+              alt="Facebook logo."
+          >
+          <img 
+              role="img"
+              width="30"
+              src="./images/logos/twitter.png" 
+              alt="Twitter logo."
+          >
+          <img 
+              role="img"
+              width="30"
+              src="./images/logos/instagram.jpeg" 
+              alt="Instagram logo."
+          >
+          <img 
+              role="img"
+              width="30"
+              src="./images/logos/whatsapp-logo-vector.png" 
+              alt="Whatsapp logo."
+          >
+      </picture>
+      <picture class="backToTop">
+          <a role="link" href="#">
+              <img 
+                  role="img"
+                  width="30"
+                  src="./images/logos/back-to-top.jpeg" 
+                  alt="Back To Top arrow icon."
+              >
+          </a>
+      </picture>
+  </footer>
   </body>
 </html>
