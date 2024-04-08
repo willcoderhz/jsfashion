@@ -463,3 +463,12 @@ small {
     text-align: center;
   }
 }
+
+.fa-solid.fa-mars,
+.fa-solid.fa-venus,
+.fa-regular.fa-gem,
+.fa-solid.fa-shoe-prints,
+.fa-solid.fa-running,
+.fa-solid.fa-child {
+    font-size: 4em;
+}
