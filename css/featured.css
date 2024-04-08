@@ -336,7 +336,9 @@ small {
     font-size: 0.5rem;
   }
   .navItems {
-    font-size: 0.7rem;
+    button {
+      font-size: 0.9rem;
+    }
   }
   .item {
     img {
@@ -389,7 +391,9 @@ small {
     font-size: 0.4rem;
   }
   .navItems {
-    font-size: 0.5rem;
+    button {
+      font-size: 0.7rem;
+    }
   }
   .items {
     img {
@@ -416,9 +420,12 @@ small {
   }
   .logo {
     font-size: 0.7rem;
+    margin-top: 0.5rem;
   }
   .navItems {
-    font-size: 0.3rem;
+    button {
+      font-size: 0.5rem;
+    }
   }
   .items {
     img {
@@ -456,7 +463,9 @@ small {
     font-size: 0.5rem;
   }
   .navItems {
-    font-size: 0.1rem;
+    button {
+      font-size: 0.4rem;
+    }
   }
   .info {
     font-size: 1.2rem;
@@ -483,5 +492,8 @@ small {
       width: 15%;
       height: 40%;
     }
+  }
+  .backToTop {
+    margin-left: 0.5rem;
   }
 }
