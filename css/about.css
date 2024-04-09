@@ -192,6 +192,10 @@ small {
     .nav {
         width: 60%;
     }
+
+    .mobile{
+        margin: 0;
+      }
 }
 
 @media only screen and (max-width: 760px) {
@@ -234,6 +238,10 @@ small {
     small {
         display: none;
     }
+
+    .mobile{
+        margin: 0;
+      }
 }
 
 
@@ -245,6 +253,10 @@ small {
     .contact {
         margin-right: 20%;
     }
+
+    .mobile{
+        margin: 0;
+      }
 }
 
 @media only screen and (max-width: 400px) {
@@ -256,4 +268,8 @@ small {
         height: 2rem;
         margin-top:15%;
     }
+
+    .mobile{
+        margin: 0;
+      }
 }
