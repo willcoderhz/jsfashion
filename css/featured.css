@@ -152,6 +152,10 @@ h2 {
   font-weight: 600;
 }
 
+p {
+  margin: 2% 0 2% 0;
+}
+
 a {
   text-decoration: none;
 }
