@@ -489,5 +489,8 @@ footer {
   margin: 0;
 }
 
+.box p{
+  text-align: center;
+}
 
 }
