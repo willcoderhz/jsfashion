@@ -24,19 +24,17 @@ a {
 
 header {
   background-color: #1f2937;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding-left:12.5%;
-  padding-right: 14%;
+
 }
 
 .headerContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0%;
-  flex: 1;
+  width: 75%;
 }
 
 .headerLogo,
@@ -49,30 +47,29 @@ header {
   width: 30%;
 }
 
-
-.nav,
-.nav ul li a,
-.bodyContent,
-button {
+nav a {
   color: #e5e7eb;
-
+  padding: 3%;
 }
 
-nav ul {
-  display: flex;
+strong {
+  font-size: larger;
 }
-
-nav li {
-  display: inline-block;
-  padding: 3%
-
-}
-
 
 .bodyContainer {
   display: flex;
   flex: 4;
   padding: 8% 0;
+  background-color: #1f2937;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.infoContainer{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
 }
 
 .bodyContent {
@@ -88,9 +85,17 @@ nav li {
   margin: 40px 0px;
 }
 
-button {
-  margin: 30px 0px;
+.bodyContent p{
+  color: #ffffff;
+}
 
+.mobile button{
+  background-color: black;
+  border-radius: 5px;
+}
+
+.bodyContent button {
+  margin: 30px 0px;
   padding: 15px 20px;
   border-radius: 20px;
   background-color: #3882f6;
@@ -101,8 +106,8 @@ button {
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-button:hover,
-button:focus {
+.bodyContent button:hover,
+.bodyContent button:focus {
   background-color: #5591f6;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   outline: none;
@@ -195,7 +200,7 @@ button:focus {
   background-color: #1980eeea;
   color: white;
   width: 60%;
-  padding: 20px 100px;
+  padding: 30px 100px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -239,19 +244,19 @@ button:focus {
 
 
 footer {
-  background-color: #1f2937;
+  background-color: #1F2937;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0.5% 0;
+  margin-top: 2%; 
 }
-
 small {
   color: #e5e7eb;
 }
 
 .contact {
-  width: 30%;
+  width:15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -269,7 +274,6 @@ small {
   max-height: 80px;
   border-radius: 4px;
 }
-
 .backToTop {
   display: flex;
   justify-content: flex-end;
@@ -320,13 +324,6 @@ small {
     height: 15rem;
   }
 
-  .ceo {
-    padding: 0 5%;
-  }
-
-  .thankNote {
-    padding: 2% 5%;
-  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -335,13 +332,6 @@ small {
     width: 80%;
   }
 
-  .ceo {
-    padding: 0 1%;
-  }
-
-  .thankNote {
-    padding: 2% 1%;
-  }
 }
 
 @media only screen and (max-width: 760px) {
@@ -378,13 +368,6 @@ small {
     align-items: center;
   }
 
-  nav {
-    width: 100%;
-  }
-
-  nav li {
-    padding: 0 20%;
-  }
 
   .backToTop img {
     margin-top: 40%;
@@ -400,16 +383,7 @@ small {
     height: 18rem;
   }
 
-  .ceoBody {
-    flex-direction: column;
-    align-items: center;
-  }
 
-
-
-  .ceoBody img {
-    width: 50%;
-  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -444,13 +418,6 @@ small {
     height: 18rem;
   }
 
-  .contact {
-    display: none;
-  }
-
-  footer {
-    padding: 3% 0;
-  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -465,4 +432,73 @@ small {
 
 aside.row1 i {
   font-size: 4em; 
+}
+
+
+@media (max-width: 600px) {
+  footer {
+    padding: 10px;
+}
+
+.footer, .contact, .backToTop {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.backToTop{
+  display: none;
+}
+
+.footer small {
+    width: 100%;
+    text-align: center;
+    order: -1;
+}
+
+.signup-section {
+  width: 90%;
+  padding: 10px;
+}
+
+.signup-content {
+  flex-direction: column;
+}
+
+.signup-word p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.signup-button {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.mobile{
+  margin: 0;
+}
+
+.box p{
+  text-align: center;
+}
+
+.bodyContainer {
+  display:none;
+}
+
 }
