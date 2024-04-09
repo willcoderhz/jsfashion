@@ -221,10 +221,6 @@ small {
   small {
     display: none;
   }
-
-  .mobile{
-    margin: 0;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -234,18 +230,12 @@ small {
   .review-wrap {
     font-size: 0.8rem;
   }
-  .mobile{
-    margin: 0;
-  }
 }
 
 @media only screen and (max-width: 400px) {
   .backToTop img {
     height: 2rem;
     margin-top: 15%;
-  }
-  .mobile{
-    margin: 0;
   }
 }
 
