@@ -21,37 +21,38 @@
     <body>
         <header role="banner">
             <section class="headerContainer">
-                <aside class="headerLogo">
+                <section class="headerLogo">
                     <p>JS Fashion</p>
-                </aside>
-                <aside class="nav">
+                </section>
+                <section class="nav">
                     <nav role="navigation" aria-labelledby="primary-navigation">
-                        <ul role="list">
-                            <li role="listitem"><a role="link"><strong>Home</strong></a></li>
-                            <li role="listitem" ><a role="link" href="./about.html">About</a></li>
-                            <li role="listitem"><a role="link" href="./featured.html">Featured</a></li>
-                            <li role="listitem"><a role="link" href="./display.html">Display</a></li>
-                        </ul>
-                      </nav>
-                </aside>
-                <aside class="mobile">
+                        <a role="link" ><strong>Home</strong></a>
+                        <a role="link" href="./about.html">About</a>
+                        <a role="link" href="./featured.html">Featured</a>
+                        <a role="link" href="./display.html">Display</a>
+                    </nav>
+                </section>
+                <figure role="figure" class="mobile">
                     <button role="button">
                         <img 
                             role="img"
-                            width="60"
-                            src="https://icon-library.com/images/white-menu-icon/white-menu-icon-4.jpg" 
+                            width="50"
+                            src="https://i.pinimg.com/originals/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg" 
                             alt="Menu button."
                         >
                     </button>
                     <nav class="mobileNav">
-                        <a role="link" ">Home</a>
-                        <a role="link" href="./about.html">about</a>
+                        <a role="link" ><strong>Home</strong></a>
+                        <a role="link" href="./about.html">About</a>
                         <a role="link" href="./featured.html">Featured</a>
                         <a role="link" href="./display.html">Display</a>
                     </nav>
-                </aside>
+                </figure>
             </section>
+        </header>
+        
             <section class="bodyContainer">
+                <section class="infoContainer">
                 <aside class="bodyContent">
                    
                     <h1 class="mainText">JS Fashion Awaits You</h1>
@@ -72,9 +73,9 @@
                     >
                 </picture>
             </section>
+            </section>
             
             
-        </header>
         
         <section class="mainContainer">
             <h1>JSfashion's Collections</h1>
@@ -133,47 +134,45 @@
         </section>
 
         <footer role="contentinfo">
-            <h2 class="footer">
+            <section class="footer">
                 <small>Copyright © 2024  JS Fashion. All Rights Reserved</small>
-            </h2>
-              <aside class="contact" id="footer">
-                <picture class="footerLogo">
+            </section>
+            <picture class="contact" id="footer">
+                <img 
+                    role="img"
+                    width="30"
+                    src="./images/logos/facebook.png" 
+                    alt="Facebook logo."
+                >
+                <img 
+                    role="img"
+                    width="30"
+                    src="./images/logos/twitter.png" 
+                    alt="Twitter logo."
+                >
+                <img 
+                    role="img"
+                    width="30"
+                    src="./images/logos/instagram.jpeg" 
+                    alt="Instagram logo."
+                >
+                <img 
+                    role="img"
+                    width="30"
+                    src="./images/logos/whatsapp-logo-vector.png" 
+                    alt="Whatsapp logo."
+                >
+            </picture>
+            <picture class="backToTop">
+                <a role="link" href="#">
                     <img 
                         role="img"
                         width="30"
-                        src="./images/logos/facebook.png" 
-                        alt="Facebook logo."
+                        src="./images/logos/back-to-top.jpeg" 
+                        alt="Back To Top arrow icon."
                     >
-                    <img 
-                        role="img"
-                        width="30"
-                        src="./images/logos/twitter.png" 
-                        alt="Twitter logo."
-                    >
-                    <img 
-                        role="img"
-                        width="30"
-                        src="./images/logos/instagram.jpeg" 
-                        alt="Instagram logo."
-                    >
-                    <img 
-                        role="img"
-                        width="30"
-                        src="./images/logos/whatsapp-logo-vector.png" 
-                        alt="Whatsapp logo."
-                    >
-                </picture>
-                <picture class="backToTop">
-                    <a role="link" href="#">
-                        <img 
-                            role="img"
-                            width="30"
-                            src="./images/logos/back-to-top.jpeg" 
-                            alt="Back To Top arrow icon."
-                        >
-                    </a>
-                </picture>
-              </aside>
-          </footer>
+                </a>
+            </picture>
+        </footer>
     </body>
 </html>
