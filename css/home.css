@@ -89,9 +89,13 @@ strong {
   color: #ffffff;
 }
 
-button {
-  margin: 30px 0px;
+.mobile button{
+  background-color: black;
+  border-radius: 5px;
+}
 
+.bodyContent button {
+  margin: 30px 0px;
   padding: 15px 20px;
   border-radius: 20px;
   background-color: #3882f6;
@@ -102,8 +106,8 @@ button {
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-button:hover,
-button:focus {
+.bodyContent button:hover,
+.bodyContent button:focus {
   background-color: #5591f6;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   outline: none;
@@ -196,7 +200,7 @@ button:focus {
   background-color: #1980eeea;
   color: white;
   width: 60%;
-  padding: 20px 100px;
+  padding: 30px 100px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -491,6 +495,10 @@ footer {
 
 .box p{
   text-align: center;
+}
+
+.bodyContainer {
+  display:none;
 }
 
 }
