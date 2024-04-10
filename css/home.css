@@ -8,6 +8,10 @@
     U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+body {
+  margin: 0;
+}
+
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
